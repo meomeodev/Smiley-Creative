@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Orange circular background with thick black border -->
+  <circle cx="50" cy="50" r="45" fill="#f47820" stroke="#1d1d1b" stroke-width="6"/>
+  
+  <!-- Left Eye -->
+  <ellipse cx="32" cy="35" rx="5" ry="10" fill="#1d1d1b"/>
+  
+  <!-- Right Eye -->
+  <ellipse cx="68" cy="35" rx="5" ry="10" fill="#1d1d1b"/>
+  
+  <!-- Smile -->
+  <!-- A path drawing a curve from left to right -->
+  <!-- M x y: start point. Q control_x control_y, end_x end_y: Quadratic bezier curve -->
+  <path d="M 28 60 Q 50 85 72 60" fill="none" stroke="#1d1d1b" stroke-width="6" stroke-linecap="round"/>
+</svg>
